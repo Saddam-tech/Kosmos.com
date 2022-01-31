@@ -1,117 +1,69 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="toggleLeftDrawer"
-        />
-
-        <q-toolbar-title>
-          Quasar App
-        </q-toolbar-title>
-
-        <div>Quasar v{{ $q.version }}</div>
-      </q-toolbar>
-    </q-header>
-
-    <q-drawer
-      v-model="leftDrawerOpen"
-      show-if-above
-      bordered
-    >
-      <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
-        </q-item-label>
-
-        <EssentialLink
-          v-for="link in essentialLinks"
-          :key="link.title"
-          v-bind="link"
-        />
-      </q-list>
-    </q-drawer>
-
-    <q-page-container>
-      <router-view />
-    </q-page-container>
+    <div class="main_navbar_wrap">
+      <h4>KOSMOS.COM</h4>
+      <ul>
+        <li>HOME</li>
+        <li>EQUIPMENT</li>
+        <li>INTELLIGENCE</li>
+        <li>PROGRESS TRACKING</li>
+        <li>WORKOUTS</li>
+        <li>PRICING</li>
+      </ul>
+    </div>
+    <div class="main_menu_wrap">
+      <div class="first_inner_box">
+        <div class="text_box">
+          <h1>SMART HOME GYM</h1>
+          <h1>MAKE YOUR</h1>
+          <h1>BODY SHAPE</h1>
+        </div>
+      </div>
+      <div class="second_inner_box"></div>
+    </div>
   </q-layout>
 </template>
 
 <script>
-import EssentialLink from 'components/EssentialLink.vue'
-
-const linksList = [
-  {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
-  },
-  {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
-  },
-  {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
-  },
-  {
-    title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
-  }
-];
-
-import { defineComponent, ref } from 'vue'
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'MainLayout',
-
-  components: {
-    EssentialLink
-  },
-
-  setup () {
-    const leftDrawerOpen = ref(false)
-
+  name: "MainLayout",
+  data() {
     return {
-      essentialLinks: linksList,
-      leftDrawerOpen,
-      toggleLeftDrawer () {
-        leftDrawerOpen.value = !leftDrawerOpen.value
-      }
-    }
-  }
-})
+      navList: [
+        {
+          title: "HOME",
+          caption: "",
+          link: "/home",
+        },
+        {
+          title: "EQUIPMENT",
+          caption: "",
+          link: "/equipment",
+        },
+        {
+          title: "INTELLIGENCE",
+          caption: "",
+          link: "/intelligence",
+        },
+        {
+          title: "PROGRESS TRACKING",
+          caption: "",
+          link: "/progress-tracking",
+        },
+        {
+          title: "WORKOUTS",
+          caption: "",
+          link: "/workouts",
+        },
+        {
+          title: "PRICING",
+          caption: "",
+          link: "#",
+        },
+      ],
+    };
+  },
+});
 </script>
