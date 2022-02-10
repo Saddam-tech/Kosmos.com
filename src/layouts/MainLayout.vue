@@ -1,5 +1,17 @@
 <template>
   <q-layout view="lHh Lpr lFf">
+    <q-header class="main-header">
+      <q-btn
+        flat
+        dense
+        round
+        icon="menu"
+        aria-label="Menu"
+        @click="toggleLeftDrawer"
+      ></q-btn>
+    </q-header>
+
+    <!-- pc header -->
     <div class="main_navbar_wrap">
       <h4>KOSMOS.COM</h4>
       <ul>
