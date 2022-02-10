@@ -27,6 +27,11 @@
           </p>
         </div>
       </div>
+      <div class="third_inner_box">
+        <h3 class="animate__animated animate__fadeIn">SERVICES</h3>
+        <h2 class="animate__animated animate__fadeIn">BUILD YOUR</h2>
+        <h2 class="white_h2 animate__animated animate__fadeIn">BEST BODY</h2>
+      </div>
     </div>
   </q-layout>
 </template>
