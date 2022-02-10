@@ -6,11 +6,13 @@
   "author": "Saddam-tech <salokhiddinov0727@gmail.com>",
   "private": true,
   "scripts": {
+    "start": "quasar dev",
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
+    "animate.css": "^4.1.1",
     "core-js": "^3.6.5",
     "quasar": "^2.0.0",
     "vue": "^3.0.0",

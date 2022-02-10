@@ -1,3 +1,68 @@
 /* app global css */
 
 @import url(layout/MainLayout.scss);
+
+@font-face {
+  font-family: "S-CoreDream-4Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "S-CoreDream-5Medium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "S-CoreDream-6Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 카페24 아네모네
+@font-face {
+  font-family: "Cafe24Ohsquare";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// 이사만루체
+@font-face {
+  font-family: "GongGothicMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "S-CoreDream-4Regular";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "S-CoreDream-6Bold";
+}
+.font_medium {
+  font-family: "S-CoreDream-5Medium";
+}
+.font_bold {
+  font-family: "S-CoreDream-6Bold";
+}
+.font_light {
+  font-family: "S-CoreDream-4Regular";
+}
+.font_timer {
+  font-family: "GongGothicMedium";
+}
