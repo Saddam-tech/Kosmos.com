@@ -160,7 +160,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url(~assets/man-workout.jpeg);
+  background: url(~assets/maxresdefault.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -183,8 +183,10 @@
     background: rgba(77, 77, 77, 0.78);
     margin: 35px;
     padding: 0;
+    max-height: 500px;
   }
   p {
+    overflow-y: scroll;
     margin: 50px;
     color: #ffffff;
     font-size: 17px;
