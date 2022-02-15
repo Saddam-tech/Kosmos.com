@@ -11,8 +11,13 @@
       <h3>ABOUT US</h3>
       <div class="modal animate__animated animate__fadeIn">
         <p>
-          Our company is headquartered in China and was founded in 2020. After
-          several months of hard work, our company has gradually started
+          COMPANY FOUNDER: USMANOV FIRDAVS <br />
+          <br />
+          "People in most of the countries are facing problems such as
+          overweight, diabetes and some other serious health problems. One of my
+          biggest dreams is - help people always be happy, healthy and feel
+          young" Our company is headquartered in China and was founded in 2020.
+          After several months of hard work, our company has gradually started
           producing our first product Kosmos I. Our Smart Home Gym are
           manufactured and sold in China first, then in the countries of the
           former Soviet Union, and eventually in the wider markets of East Asia,
