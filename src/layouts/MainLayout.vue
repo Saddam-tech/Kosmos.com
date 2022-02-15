@@ -1,25 +1,57 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-header class="main-header">
-      <q-btn
-        flat
-        dense
-        round
-        icon="menu"
-        aria-label="Menu"
-        @click="toggleLeftDrawer"
-      ></q-btn>
-      <!-- pc header -->
+      <!-- mobile header -->
       <div class="main_navbar_wrap">
+        <q-btn
+          flat
+          dense
+          round
+          icon="menu"
+          aria-label="Menu"
+          @click="toggleLeftDrawer"
+        ></q-btn>
         <h4>KOSMOS.COM</h4>
         <ul>
           <li v-for="list in navList" :key="list.id">{{ list.title }}</li>
         </ul>
+
+        <q-drawer
+          :width="$q.screen.width"
+          v-model="leftDrawerOpen"
+          bordered
+          class="mobile-menu"
+        >
+          <q-list>
+            <q-btn
+              class="mobile-close-btn"
+              icon="close"
+              @click="toggleLeftDrawer"
+              flat
+              round
+              dense
+            ></q-btn>
+          </q-list>
+
+          <q-separator></q-separator>
+
+          <div class="mobile-menu-list">
+            <router-link to="/">
+              <div class="header">
+                <h4>KOSMOS.COM</h4>
+                <p>Build yourself</p>
+              </div>
+            </router-link>
+            <ul>
+              <li v-for="list in navList" :key="list.id">{{ list.title }}</li>
+            </ul>
+          </div>
+        </q-drawer>
       </div>
     </q-header>
     <q-page-container>
-      <router-view /> </q-page-container
-    >``
+      <router-view />
+    </q-page-container>
   </q-layout>
 </template>
 
