@@ -89,7 +89,12 @@
       </div>
     </div>
     <div class="fifth_inner_box">
-      <div class="box-container animate__animated animate__fadeIn"></div>
+      <div class="box-container animate__animated animate__fadeIn">
+        <img src="~assets/detail_1.png" alt="detail_1" />
+        <img src="~assets/detail_2.png" alt="detail_2" />
+        <img src="~assets/detail_3.png" alt="detail_3" />
+        <img src="~assets/detail_4.png" alt="detail_4" />
+      </div>
       <div class="text-container animate__animated animate__fadeIn">
         <h2>
           HUMANIZED DESIGN <br />
