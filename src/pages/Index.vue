@@ -88,6 +88,28 @@
         </p>
       </div>
     </div>
+    <div class="fifth_inner_box">
+      <div class="box-container animate__animated animate__fadeIn"></div>
+      <div class="text-container animate__animated animate__fadeIn">
+        <h2>
+          HUMANIZED DESIGN <br />
+          STRIVE FOR QUALITY
+        </h2>
+        <p>
+          The main frame structure of the intelligent comprehensive training
+          device is made of high-strength steel. Durable, high-temperature spray
+          treatment on hte surface, beautiful appearance, scrantch-resistant,
+          180 degree rotatable. The rotating column adopts the design concept of
+          the combination of spring pin and rotating rod pin to reduce shaking.
+          Move to increase the stability during exercise, the upper and lower
+          boom adopts circlip type adjustment design. The adjustment is
+          smoother. The tension rope is made of imported string horse braided
+          rope. It has the characteristics of wear resistence, UV resistance
+          corrosion resistence, oxidation resistance and strong tensile force,
+          so that safer during use.
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
