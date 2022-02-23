@@ -224,7 +224,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  // height: 100vh;
   box-shadow: inset 0 200px 100px black;
   overflow: hidden;
 
@@ -247,9 +247,11 @@
     align-items: center;
     justify-content: space-around;
     padding: 20px;
-    width: 100%;
-    height: 1200px;
-    overflow: scroll;
+    width: 600px;
+    height: 600px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    // white-space: nowrap;
   }
 
   img {
