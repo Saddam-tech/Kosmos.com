@@ -18,8 +18,8 @@
       </div>
     </q-header>
     <q-page-container>
-      <router-view /> </q-page-container
-    >``
+      <router-view />
+    </q-page-container>
   </q-layout>
 </template>
 
@@ -70,6 +70,7 @@ export default defineComponent({
       ],
     };
   },
+
   setup() {
     const leftDrawerOpen = ref(false);
 
