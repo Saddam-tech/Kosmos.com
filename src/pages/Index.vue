@@ -88,13 +88,26 @@
         </p>
       </div>
     </div>
+    <!-- <div class="q-pa-md"> -->
+    <q-carousel
+      animated
+      v-model="slides"
+      navigation
+      infinite
+      :autoplay="autoplay"
+      arrows
+      transition-prev="slide-right"
+      transition-next="slide-left"
+      @mouseenter="autoplay = false"
+      @mouseleave="autoplay = true"
+    >
+      <q-carousel-slide :name="1" img-src="~assets/detail_1.png" />
+      <q-carousel-slide :name="2" img-src="~assets/detail_2.png" />
+      <q-carousel-slide :name="3" img-src="~assets/detail_3.png" />
+      <q-carousel-slide :name="4" img-src="~assets/detail_4.png" />
+    </q-carousel>
+    <!-- </div> -->
     <div class="fifth_inner_box">
-      <div class="box-container animate__animated animate__fadeIn">
-        <img src="~assets/detail_1.png" alt="detail_1" />
-        <img src="~assets/detail_2.png" alt="detail_2" />
-        <img src="~assets/detail_3.png" alt="detail_3" />
-        <img src="~assets/detail_4.png" alt="detail_4" />
-      </div>
       <div class="text-container animate__animated animate__fadeIn">
         <h2>
           HUMANIZED DESIGN <br />
@@ -119,10 +132,16 @@
 </template>
 
 <script>
-import { defineComponent } from "vue";
+import { defineComponent, ref } from "vue";
 import "animate.css";
 
 export default defineComponent({
   name: "Index",
+  setup() {
+    return {
+      slides: ref(1),
+      autoplay: ref(true),
+    };
+  },
 });
 </script>
