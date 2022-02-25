@@ -1,11 +1,67 @@
 //navbar
 .main_navbar_wrap {
+  position: sticky;
   top: 0;
   background-color: #000000;
-  position: fixed;
-  padding: 24px 20px;
+  padding: 12px 10px;
   width: 100%;
   z-index: 999;
+
+  .mobile-menu {
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 34px;
+
+      h4 {
+        color: #000000;
+      }
+    }
+    .mobile-menu-list {
+      ul {
+        display: flex;
+        flex-direction: column;
+
+        li {
+          display: inline-block;
+          position: relative;
+          padding: 16px;
+          color: #000000;
+          font-size: 18px;
+        }
+        li:after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #000000;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+        li:hover:after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+        }
+        li:hover {
+          background-color: #d2d2d2;
+          transition: 0.25s;
+        }
+      }
+    }
+    .mobile-close-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      font-size: 1.2em;
+      color: gray;
+      cursor: pointer;
+    }
+  }
 
   h4 {
     text-align: center;
@@ -20,7 +76,7 @@
 
   ul {
     width: 100%;
-    display: flex;
+    display: none;
     justify-content: space-between;
     flex-flow: row nowrap;
     list-style: none;
@@ -56,7 +112,6 @@
 }
 
 .main_menu_wrap {
-  // margin: 80px 0 0 0;
   padding: 0;
   width: 100%;
   height: 100vh;
@@ -67,7 +122,6 @@
   align-items: center;
   justify-content: center;
   background: url(~assets/House-Plate-blog.jpeg);
-  // background: url("https://www.tonal.com/wp-content/uploads/2021/11/Strength-You-Can-Feel-Desktop.jpg?w=2560");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -104,7 +158,6 @@
     color: #ffffff;
     padding: 80px;
     font-weight: bold;
-    width: 700px;
   }
 
   .modal {
@@ -137,18 +190,6 @@
     font-weight: bold;
     font-size: 30px;
   }
-
-  // .white_h2 {
-  //   color: #ffffff;
-  //   font-size: 50px;
-  //   font-weight: bold;
-  // }
-
-  // h2 {
-  //   -webkit-text-stroke: 0.5px #ffffff;
-  //   font-size: bold;
-  //   color: #000000;
-  // }
 }
 
 .animate__animated.animate__fadeIn {
