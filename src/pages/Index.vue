@@ -88,7 +88,6 @@
         </p>
       </div>
     </div>
-    <!-- <div class="q-pa-md"> -->
     <q-carousel
       animated
       v-model="slides"
@@ -106,7 +105,6 @@
       <q-carousel-slide :name="3" img-src="~assets/detail_3.png" />
       <q-carousel-slide :name="4" img-src="~assets/detail_4.png" />
     </q-carousel>
-    <!-- </div> -->
     <div class="fifth_inner_box">
       <div class="text-container animate__animated animate__fadeIn">
         <h2>
@@ -128,6 +126,257 @@
         </p>
       </div>
     </div>
+    <div class="sixth_inner_box">
+      <div class="text-container animate__animated animate__fadeIn">
+        <h4>Efficient usage of power Kinetic energy recovery</h4>
+        <p>
+          The disruptive motor technology avoids the backlash caused by the
+          reducer and ensures a smooth feel. FOC control, special motor design,
+          can directly output more than 50nm torque, dynamic powerful. Compared
+          with traditional counterweight equipment, it is muted, safer, smarter
+          and higher effect of exercises
+        </p>
+        <img src="~assets/strength-assement-v2.jpeg" alt="fitness" />
+        <p>
+          Recover more than 80% of the kinetic energy through super capacitors,
+          even in boating mode not only does it consume no power, but it can
+          also supply power to external devices
+        </p>
+        <img src="~assets/Tonal_Product.jpeg" alt="fitness" />
+      </div>
+    </div>
+    <div class="seventh_inner_box">
+      <div class="q-pa-md">
+        <div class="q-gutter-md">
+          <q-carousel
+            v-model="slide"
+            transition-prev="scale"
+            transition-next="scale"
+            swipeable
+            animated
+            control-color="black"
+            navigation
+            padding
+            arrows
+            height="700px"
+            width="100%"
+            class="bg-white shadow-1 rounded-borders"
+          >
+            <q-carousel-slide name="style" class="column no-wrap flex-center">
+              <div class="sixth_inner_box">
+                <h5>
+                  A variety of 'Booming adjustment methods', Meeting various
+                  training needs
+                </h5>
+                <img src="~assets/kosmos_1.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="tv" class="column no-wrap flex-center">
+              <div class="sixth_inner_box">
+                <p>(1) Vertical rotation adjustment (9 file adjustment)</p>
+                <img src="~assets/training_1.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="layers" class="column no-wrap flex-center">
+              <div class="sixth_inner_box">
+                <h5>Full body workouts fully focused on you</h5>
+                <img src="~assets/kosmos_2.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="map" class="column no-wrap flex-center">
+              <div class="sixth_inner_box">
+                <h5>Upside down adjustment (11 file adjustments)</h5>
+                <img src="~assets/training_2.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="kosmos_3"
+              class="column no-wrap flex-center"
+            >
+              <div class="sixth_inner_box">
+                <h5>Professional and scientific fitness personal training</h5>
+                <img src="~assets/kosmos_3.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="training_3"
+              class="column no-wrap flex-center"
+            >
+              <div class="sixth_inner_box">
+                <p>Horizontal rotation adjustment (5 levels adjustment)</p>
+                <img src="~assets/training_3.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+          </q-carousel>
+        </div>
+      </div>
+    </div>
+    <div class="eight_inner_box">
+      <div class="q-pa-md">
+        <div class="q-gutter-md">
+          <q-carousel
+            v-model="slide_2"
+            transition-prev="scale"
+            transition-next="scale"
+            swipeable
+            animated
+            control-color="black"
+            navigation
+            padding
+            arrows
+            height="700px"
+            width="100%"
+            class="bg-white shadow-1 rounded-borders"
+          >
+            <q-carousel-slide name="style" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>Android system, social, music, video everything.</h5>
+                <h5>
+                  Live and interacts with the coach and move the gym experience
+                  into the house.
+                </h5>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="tv" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>
+                  Free exercise, running mode, fitness plan, multiple exercise
+                  methods of your choice
+                </h5>
+                <h5>
+                  Create different accounts, work out with your family, and let
+                  your family fall inlove with fitness.
+                </h5>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="layers" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>
+                  Variety of exercise training videos, truly achieves the goal
+                  of barrier-free professional training for beginners
+                </h5>
+                <h5>
+                  Synchronous aonline update of teaching videos to help users
+                  continuously explore new functions of the device
+                </h5>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="map" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>
+                  Professional muscle endurance test, exclusive fitness plan,
+                  choose your favorite coach
+                </h5>
+                <h5>
+                  Real-time record of your calories burned during exercise,
+                  heart rate and training during training time
+                </h5>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="kosmos_3"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>Multiple strength training modes</h5>
+                <p>
+                  Constant force mode The resistance is constant, and changes
+                  with the action, the force of muscle contraction produces
+                  changes to meet the completion of the entire action. This
+                  training mode is closer to daily and work to complete an
+                  action efficiently and reduce the risk of injury.
+                </p>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="kosmos_4"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>Centripetal isotonic mode</h5>
+                <p>
+                  When the muscle contracts, its length becomes shorter, which
+                  greatly increases the contraction strength of the muscles.
+                  Strong effect, is an effective way to increase muscle, reduce
+                  fat and shape. Suitable for swimming, running, skating and
+                  other items. It is the main form of muscle movement, to
+                  achieve dynamics the basis of sports
+                </p>
+                <img src="~assets/swimming-buddy.png" alt="pool" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="training_4"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>Centrifugal isotonic mode:</h5>
+                <p>
+                  Can prevent sports injuries, eccentric exercise will allow
+                  beginners to adapt quickly after exercise. Muscle soreness can
+                  promote higher strength growth and promote endocrine
+                  circulation. Lets you lose more fat, eccentric exercise
+                  training brings greater muscle dimension and promotes muscle
+                  growth.
+                </p>
+                <img src="~assets/powertec.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="training_5"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>Elastic mode:</h5>
+                <p>
+                  The elastic resistance changes with the elongation. It can
+                  effectively improve muscle strength, physical activity and
+                  flexibility, and effectively improve sports performance. It
+                  can also match the rhythm of music to change. It becomes a
+                  kind of aerobic training that can quickly self-cultivate,
+                  strengthen cardio-respiratory function and improve posture.
+                </p>
+                <img src="~assets/elasticity.png" alt="training_5" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="training_6"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>Centrifugal isotonic mode:</h5>
+                <p>
+                  Can prevent sports injuries, eccentric exercise will allow
+                  beginners to adapt quickly after exercise. Muscle soreness can
+                  promote higher strength growth and promote endocrine
+                  circulation. Lets you lose more fat, eccentric exercise
+                  training brings greater muscle dimension and promotes muscle
+                  growth.
+                </p>
+                <img src="~assets/powertec.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="training_7"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>Centrifugal isotonic mode:</h5>
+                <p>
+                  Can prevent sports injuries, eccentric exercise will allow
+                  beginners to adapt quickly after exercise. Muscle soreness can
+                  promote higher strength growth and promote endocrine
+                  circulation. Lets you lose more fat, eccentric exercise
+                  training brings greater muscle dimension and promotes muscle
+                  growth.
+                </p>
+                <img src="~assets/powertec.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+          </q-carousel>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -141,6 +390,10 @@ export default defineComponent({
     return {
       slides: ref(1),
       autoplay: ref(true),
+      slide: ref("style"),
+      slide_2: ref("style"),
+      lorem:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.",
     };
   },
 });

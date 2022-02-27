@@ -140,7 +140,7 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Kosmos.com`,
+        name: `Kosmos | Smart Fitness`,
         short_name: `Kosmos.com`,
         description: `Build your future fitness with Kosmos`,
         display: "standalone",
