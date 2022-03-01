@@ -256,7 +256,7 @@
                   of barrier-free professional training for beginners
                 </h5>
                 <h5>
-                  Synchronous aonline update of teaching videos to help users
+                  Synchronous online update of teaching videos to help users
                   continuously explore new functions of the device
                 </h5>
               </div>
@@ -360,30 +360,6 @@
               </div>
             </q-carousel-slide>
             <q-carousel-slide
-              name="training_7"
-              class="column no-wrap flex-center"
-            >
-              <div class="eight_inner_box">
-                <h5>Rehabilitation training mode:</h5>
-                <p>
-                  Provide accurate assistive force and data feedback to assist
-                  the rehabilitated effective joint activities, aiming at
-                  passive flexion and extension of knee joints, hip joints,
-                  waist and muscles. Muscle massage stretches to prevent
-                  contracture and deformation, and achieve muscle relaxation and
-                  lightening under static conditions. The tension of the limbs,
-                  correct the posture, especially when the patient is unable to
-                  move the joints autonomously or the range of motion does not
-                  reach the normal value, and does not have enough strength to
-                  complete the active movement. Under the guidance of a doctor,
-                  the patient himself can also use this device alone to assist.
-                  The exercise performed by the affected limb greatly reduces
-                  the workload of the doctor.
-                </p>
-                <img src="~assets/shot.png" alt="training_1" />
-              </div>
-            </q-carousel-slide>
-            <q-carousel-slide
               name="training_8"
               class="column no-wrap flex-center"
             >
@@ -421,7 +397,7 @@
                   sitting post-pull action, etc. Implement the function of the
                   bench press trainer.
                 </p>
-                <img src="~assets/hh1.jpeg" alt="training_1" />
+                <img src="~assets/maxresdefault.jpeg" alt="training_1" />
               </div>
             </q-carousel-slide>
             <q-carousel-slide
