@@ -344,16 +344,19 @@
               class="column no-wrap flex-center"
             >
               <div class="eight_inner_box">
-                <h5>Centrifugal isotonic mode:</h5>
+                <h5>Fluid resistance mode:</h5>
                 <p>
-                  Can prevent sports injuries, eccentric exercise will allow
-                  beginners to adapt quickly after exercise. Muscle soreness can
-                  promote higher strength growth and promote endocrine
-                  circulation. Lets you lose more fat, eccentric exercise
-                  training brings greater muscle dimension and promotes muscle
-                  growth.
+                  Imitate characteristics of wind resistance and water
+                  resistance rowing machine, to the legs, waist, upper limbs,
+                  chest. The muscles of the lower back and back back have a
+                  better effect, which can achieve the effect of aerobic
+                  exercise of the whole body muscles. There are many hears for
+                  resistance adjustment, no noise, and can strengthen the legs.
+                  The muscles of the waist, upper limbs, chest, back can also be
+                  improved cardiopulmonary function, fat reduction and shaping
+                  effects.
                 </p>
-                <img src="~assets/powertec.png" alt="training_1" />
+                <img src="~assets/10.jpeg" alt="training_1" />
               </div>
             </q-carousel-slide>
             <q-carousel-slide
@@ -361,20 +364,276 @@
               class="column no-wrap flex-center"
             >
               <div class="eight_inner_box">
-                <h5>Centrifugal isotonic mode:</h5>
+                <h5>Rehabilitation training mode:</h5>
                 <p>
-                  Can prevent sports injuries, eccentric exercise will allow
-                  beginners to adapt quickly after exercise. Muscle soreness can
-                  promote higher strength growth and promote endocrine
-                  circulation. Lets you lose more fat, eccentric exercise
-                  training brings greater muscle dimension and promotes muscle
-                  growth.
+                  Provide accurate assistive force and data feedback to assist
+                  the rehabilitated effective joint activities, aiming at
+                  passive flexion and extension of knee joints, hip joints,
+                  waist and muscles. Muscle massage stretches to prevent
+                  contracture and deformation, and achieve muscle relaxation and
+                  lightening under static conditions. The tension of the limbs,
+                  correct the posture, especially when the patient is unable to
+                  move the joints autonomously or the range of motion does not
+                  reach the normal value, and does not have enough strength to
+                  complete the active movement. Under the guidance of a doctor,
+                  the patient himself can also use this device alone to assist.
+                  The exercise performed by the affected limb greatly reduces
+                  the workload of the doctor.
                 </p>
-                <img src="~assets/powertec.png" alt="training_1" />
+                <img src="~assets/shot.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="training_8"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>Use of multiple instruments (treadmill):</h5>
+                <p>
+                  The intelligent comprehensive training device can be used in
+                  conjunction with a variety of equipment: it can be used with
+                  treadmills. In addition to the functional training bench used
+                  in conjunction, it can also be used with spinning, abdominal
+                  muscle boards and shoulder pushing benches. Use other exercise
+                  equipment together to obtain exercise data. Place a treadmill
+                  directly in front of the intelligent comprehensive trainer and
+                  use the treadmill when the time, the intelligent comprehensive
+                  trainer can adjust the boom of the wall-hanging machine to be
+                  parallel to the ground, high. Adjust the angle to the height
+                  of the human elbow, and adjust the angle to be perpendicular
+                  to the wall, as a treadmill. The armrest can be used; it can
+                  also be used as a TV, which can reduce the dullness of
+                  running.
+                </p>
+                <img src="~assets/shot.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="training_9"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>Use with multi-function training stools:</h5>
+                <p>
+                  Place a multi-function training bench in front of the
+                  wall-mounted, adjust the boom to the appropriate position, and
+                  use the handle or long tension bar to do a push-out action,
+                  sitting post-pull action, etc. Implement the function of the
+                  bench press trainer.
+                </p>
+                <img src="~assets/hh1.jpeg" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="training_10"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>Rehabilitation training mode:</h5>
+                <p>
+                  Provide accurate assistive force and data feedback to assist
+                  the rehabilitated effective joint activities, aiming at
+                  passive flexion and extension of knee joints, hip joints,
+                  waist and muscles. Muscle massage stretches to prevent
+                  contracture and deformation, and achieve muscle relaxation and
+                  lightening under static conditions. The tension of the limbs,
+                  correct the posture, especially when the patient is unable to
+                  move the joints autonomously or the range of motion does not
+                  reach the normal value, and does not have enough strength to
+                  complete the active movement. Under the guidance of a doctor,
+                  the patient himself can also use this device alone to assist.
+                  The exercise performed by the affected limb greatly reduces
+                  the workload of the doctor.
+                </p>
+                <img src="~assets/hh1.jpeg" alt="training_1" />
               </div>
             </q-carousel-slide>
           </q-carousel>
         </div>
+      </div>
+    </div>
+    <div class="eight_inner_box">
+      <div class="q-pa-md">
+        <div class="q-gutter-md">
+          <q-carousel
+            v-model="slide_3"
+            transition-prev="scale"
+            transition-next="scale"
+            swipeable
+            animated
+            control-color="black"
+            navigation
+            padding
+            arrows
+            height="700px"
+            width="100%"
+            class="bg-white shadow-1 rounded-borders"
+          >
+            <q-carousel-slide name="style" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>Smart accessories - Wide choice</h5>
+                <img src="~assets/latest_1.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="tv" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <img src="~assets/latest_2.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="layers" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <img src="~assets/latest_3.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="map" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <img src="~assets/latest_4.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="style-1" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <img src="~assets/latest_5.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="tv-1" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <img src="~assets/latest_6.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="map-1" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <img src="~assets/latest_7.png" alt="training_1" />
+              </div>
+            </q-carousel-slide>
+          </q-carousel>
+        </div>
+      </div>
+    </div>
+    <div class="eight_inner_box">
+      <div class="q-pa-md">
+        <div class="q-gutter-md">
+          <q-carousel
+            v-model="slide_4"
+            transition-prev="scale"
+            transition-next="scale"
+            swipeable
+            animated
+            control-color="black"
+            navigation
+            padding
+            arrows
+            height="700px"
+            width="100%"
+            class="bg-white shadow-1 rounded-borders"
+          >
+            <q-carousel-slide name="style" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>Different installation methods meet different needs</h5>
+                <img src="~assets/installation.png" alt="training_1" />
+                <p>
+                  Home-style wall-mounted installation can save space and enjoy
+                  smart fitness equipment. Beautifully decorated home atmosphere
+                </p>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="tv" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>Different installation methods meet different needs</h5>
+                <img src="~assets/installation-2.png" alt="training_1" />
+                <p>
+                  Stable floor stand installation, super strong. The floor
+                  suction cup is more stable and suitable for in various venues
+                </p>
+              </div>
+            </q-carousel-slide>
+          </q-carousel>
+        </div>
+      </div>
+    </div>
+    <div class="eight_inner_box">
+      <div class="q-pa-md">
+        <div class="q-gutter-md">
+          <q-carousel
+            v-model="slide_5"
+            transition-prev="scale"
+            transition-next="scale"
+            swipeable
+            animated
+            control-color="black"
+            navigation
+            padding
+            arrows
+            height="700px"
+            width="100%"
+            class="bg-white shadow-1 rounded-borders"
+          >
+            <q-carousel-slide name="style" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>Basic information</h5>
+                <p>ATHLETIC POWER</p>
+                <p>
+                  Maximum 60kg on each side, with a variety of strength modes,
+                  intelligent strength. Matching, intelligent motion protection
+                  function.
+                </p>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="tv" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>SCREEN</h5>
+                <p>32 inch high-definition touch screen.</p>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="layers" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>POWER SUPPLY</h5>
+                <p>
+                  Built-in energy recovery for maximum energy savings. External
+                  power supply 110v ac or 220v ac.
+                </p>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="map" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>PRODUCT SIZE</h5>
+                <p>138.5cm * 79.5cm * 28.5cm</p>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="style-1" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>PACKAGE SIZE</h5>
+                <p>141cm * 83cm * 25cm</p>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide name="tv-1" class="column no-wrap flex-center">
+              <div class="eight_inner_box">
+                <h5>PRODUCT WEIGHT</h5>
+                <p>68kg</p>
+              </div>
+            </q-carousel-slide>
+            <q-carousel-slide
+              name="layers-1"
+              class="column no-wrap flex-center"
+            >
+              <div class="eight_inner_box">
+                <h5>PRODUCT GROSS WEIGHT</h5>
+                <p>83kg</p>
+              </div>
+            </q-carousel-slide>
+          </q-carousel>
+        </div>
+      </div>
+    </div>
+    <div class="achievement">
+      <div class="text-box">
+        <h5>Achievement</h5>
+        <p>
+          The last 6 months was a really tough period for our company but we did
+          our best to get here today.
+        </p>
+        <h5>Over 10000 + users over 220 + moves no membership fees</h5>
+        <p>And also our Smart Home Gym already exported to these countries:</p>
+        <h5>* Russia * Uzbekistan * Indonesia * USA * Tanzania * Thailand</h5>
       </div>
     </div>
   </div>
@@ -392,6 +651,9 @@ export default defineComponent({
       autoplay: ref(true),
       slide: ref("style"),
       slide_2: ref("style"),
+      slide_3: ref("style"),
+      slide_4: ref("style"),
+      slide_5: ref("style"),
       lorem:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.",
     };
