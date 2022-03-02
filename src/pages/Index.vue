@@ -707,14 +707,14 @@
         </div>
         <p><span>Call Us</span></p>
         <p class="p-white"><span>+86 132 7681 8667</span></p>
-        <p>
-          <span
-            >Copyright © {{ new Date().getFullYear() }} Kosmos-fitness. All
-            rights reserved.</span
-          >
-        </p>
         <p class="bold">
           <img src="~assets/favicon.png" alt="logo" /> KOSMOS-FITNESS
+        </p>
+        <p>
+          <span
+            >Copyright © {{ new Date().getFullYear() }} Kosmos-Fitness. All
+            rights reserved.</span
+          >
         </p>
       </div>
     </div>
