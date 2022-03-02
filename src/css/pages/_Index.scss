@@ -443,11 +443,10 @@
       margin: 20px 20px 50px 20px;
     }
     .stroke-h5 {
-      margin-bottom: 30px;
+      margin-top: 30px;
       -webkit-text-stroke: 0.5px #000000;
       font-size: bold;
       color: #ffffff;
-      margin: 7px;
     }
     .footer_inner_box {
       h5 {
@@ -455,6 +454,19 @@
       }
       p {
         padding: 20px;
+      }
+    }
+    .social-icons {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 100%;
+      margin-top: 40px;
+
+      i {
+        margin: 10px;
+        font-size: 28px;
+        color: #000000;
       }
     }
   }

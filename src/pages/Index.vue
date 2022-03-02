@@ -614,8 +614,8 @@
     </div>
     <div class="pre-footer">
       <div class="inner-content">
+        <h5 class="stroke-h5">EXPLORE OUR CONTENT</h5>
         <img src="~assets/man-workout.jpeg" alt="training_1" />
-        <h5 class="stroke-h5">KEEP IN TOUCH WITH US IN SOCIAL MEDIA</h5>
         <q-carousel
           v-model="slide_6"
           transition-prev="scale"
@@ -636,14 +636,44 @@
                 The Kosmos community is changing strength training forever. Join
                 in, we’re just getting started.
               </p>
+              <div class="social-media-links"></div>
             </div>
           </q-carousel-slide>
-          <q-carousel-slide name="style" class="column no-wrap flex-center">
+          <q-carousel-slide name="tv" class="column no-wrap flex-center">
             <div class="footer_inner_box">
-              <img src="~assets/man-workout.jpeg" alt="training_1" />
+              <img src="~assets/celebrities.jpeg" alt="training_1" />
+            </div>
+          </q-carousel-slide>
+          <q-carousel-slide name="layers" class="column no-wrap flex-center">
+            <div class="footer_inner_box">
+              <img src="~assets/celebrities_2.png" alt="training_1" />
+            </div>
+          </q-carousel-slide>
+          <q-carousel-slide name="map" class="column no-wrap flex-center">
+            <div class="footer_inner_box">
+              <img src="~assets/celebrities_3.jpeg" alt="training_1" />
             </div>
           </q-carousel-slide>
         </q-carousel>
+        <h5 class="stroke-h5">KEEP IN TOUCH WITH US IN SOCIAL MEDIA</h5>
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/_usmanov_firdavs_/?hl=en"
+            target="blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=100010028779013"
+            target="blank"
+            ><i class="fab fa-facebook"></i>
+          </a>
+
+          <a href="mailto:kosmos1.cn@gmail.com" target="blank"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a href="tel://+8613276818667"> <i class="fas fa-phone"></i></a>
+        </div>
       </div>
     </div>
   </div>

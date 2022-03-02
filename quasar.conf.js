@@ -28,14 +28,14 @@ module.exports = configure(function (ctx) {
 
     // https://github.com/quasarframework/quasar/tree/dev/extras
     extras: [
-      // 'ionicons-v4',
       // 'mdi-v5',
-      // 'fontawesome-v5',
-      // 'eva-icons',
       // 'themify',
+      // "eva-icons",
+      // "ionicons-v4",
       // 'line-awesome',
       // 'roboto-font-latin-ext', // this or either 'roboto-font', NEVER both!
 
+      "fontawesome-v5",
       "roboto-font", // optional, you are not bound to it
       "material-icons", // optional, you are not bound to it
     ],
@@ -83,7 +83,7 @@ module.exports = configure(function (ctx) {
     framework: {
       config: {},
 
-      // iconSet: 'material-icons', // Quasar icon set
+      // iconSet: "fontawesome-v5", // Quasar icon set
       // lang: 'en-US', // Quasar language pack
 
       // For special cases outside of where the auto-import strategy can have an impact
