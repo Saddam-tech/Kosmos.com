@@ -612,6 +612,40 @@
         <h5>* Russia * Uzbekistan * Indonesia * USA * Tanzania * Thailand</h5>
       </div>
     </div>
+    <div class="pre-footer">
+      <div class="inner-content">
+        <img src="~assets/man-workout.jpeg" alt="training_1" />
+        <h5 class="stroke-h5">KEEP IN TOUCH WITH US IN SOCIAL MEDIA</h5>
+        <q-carousel
+          v-model="slide_6"
+          transition-prev="scale"
+          transition-next="scale"
+          swipeable
+          animated
+          control-color="black"
+          navigation
+          arrows
+          height="300px"
+          width="100%"
+          class="bg-white shadow-1 rounded-borders"
+        >
+          <q-carousel-slide name="style" class="column no-wrap flex-center">
+            <div class="footer_inner_box">
+              <h5>How the best get stronger</h5>
+              <p>
+                The Kosmos community is changing strength training forever. Join
+                in, we’re just getting started.
+              </p>
+            </div>
+          </q-carousel-slide>
+          <q-carousel-slide name="style" class="column no-wrap flex-center">
+            <div class="footer_inner_box">
+              <img src="~assets/man-workout.jpeg" alt="training_1" />
+            </div>
+          </q-carousel-slide>
+        </q-carousel>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -630,6 +664,7 @@ export default defineComponent({
       slide_3: ref("style"),
       slide_4: ref("style"),
       slide_5: ref("style"),
+      slide_6: ref("style"),
       lorem:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.",
     };

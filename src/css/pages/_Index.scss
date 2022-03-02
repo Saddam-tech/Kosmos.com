@@ -423,6 +423,43 @@
   }
 }
 
+.pre-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .inner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+
+    img {
+      width: 300px;
+      height: 200px;
+      border-radius: 80px;
+      margin: 20px 20px 50px 20px;
+    }
+    .stroke-h5 {
+      margin-bottom: 30px;
+      -webkit-text-stroke: 0.5px #000000;
+      font-size: bold;
+      color: #ffffff;
+      margin: 7px;
+    }
+    .footer_inner_box {
+      h5 {
+        color: #000000;
+      }
+      p {
+        padding: 20px;
+      }
+    }
+  }
+}
+
 .animate__animated.animate__fadeIn {
   --animate-duration: 3s;
 }
