@@ -687,6 +687,24 @@
           :label="input_email_label"
           :dense="dense"
         />
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/_usmanov_firdavs_/?hl=en"
+            target="blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <a
+            href="https://www.facebook.com/profile.php?id=100010028779013"
+            target="blank"
+            ><i class="fab fa-facebook"></i>
+          </a>
+
+          <a href="mailto:kosmos1.cn@gmail.com" target="blank"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a href="tel://+8613276818667"> <i class="fas fa-phone"></i></a>
+        </div>
         <p><span>Call Us</span></p>
         <p class="p-white"><span>+86 132 7681 8667</span></p>
         <p>
