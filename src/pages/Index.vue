@@ -676,6 +676,30 @@
         </div>
       </div>
     </div>
+    <div class="footer">
+      <div class="content">
+        <p><span>Keep up to date with Kosmos-fitness</span></p>
+        <q-input
+          class="q-input"
+          color="blue"
+          label-color="grey"
+          v-model="input_text_email"
+          :label="input_email_label"
+          :dense="dense"
+        />
+        <p><span>Call Us</span></p>
+        <p class="p-white"><span>+86 132 7681 8667</span></p>
+        <p>
+          <span
+            >Copyright © {{ new Date().getFullYear() }} Kosmos-fitness. All
+            rights reserved.</span
+          >
+        </p>
+        <p class="bold">
+          <img src="~assets/favicon.png" alt="logo" /> KOSMOS-FITNESS
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -695,6 +719,9 @@ export default defineComponent({
       slide_4: ref("style"),
       slide_5: ref("style"),
       slide_6: ref("style"),
+      input_text_email: ref(""),
+      input_email_label: "Enter your email",
+      dense: ref(false),
       lorem:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.",
     };

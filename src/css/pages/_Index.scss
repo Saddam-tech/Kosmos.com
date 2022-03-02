@@ -471,6 +471,45 @@
     }
   }
 }
+.footer {
+  display: flex;
+  background-color: #000000;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+    p {
+      color: #8a8a8a;
+      font-size: 12px;
+      padding-top: 20px;
+    }
+    .p-white {
+      color: #ffffff;
+      padding: 0;
+      margin: 0;
+    }
+    .q-input {
+      padding-bottom: 10px;
+      font-size: 10px;
+      color: #ffffff;
+    }
+    .bold {
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+      gap: 5px;
+      font-size: 20px;
+
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 90px;
+      }
+    }
+  }
+}
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 3s;
