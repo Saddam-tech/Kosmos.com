@@ -678,7 +678,7 @@
     </div>
     <div class="footer">
       <div class="content">
-        <p><span>Keep up to date with Kosmos-fitness</span></p>
+        <p><span>Keep up to date with Kosmos-Fitness</span></p>
         <q-input
           class="q-input"
           color="blue"
