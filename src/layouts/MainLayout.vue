@@ -12,10 +12,6 @@
           @click="toggleLeftDrawer"
         ></q-btn>
         <h4>KOSMOS.COM</h4>
-        <ul>
-          <li v-for="list in navList" :key="list.id">{{ list.title }}</li>
-        </ul>
-
         <q-drawer
           :width="$q.screen.width"
           v-model="leftDrawerOpen"
@@ -49,6 +45,24 @@
         </q-drawer>
       </div>
     </q-header>
+    <!-- pc header -->
+    <q-header class="pc_main_header">
+      <div class="pc_navbar_wrap">
+        <ul>
+          <li v-for="list in navList" :key="list.id">{{ list.title }}</li>
+        </ul>
+        <div class="title_logo">
+          <img src="~assets/favicon.png" alt="logo" />
+          <h4>KOSMOS.COM</h4>
+        </div>
+        <ul>
+          <li :class="list.class" v-for="list in pricing" :key="list.id">
+            {{ list.title }}
+          </li>
+        </ul>
+      </div>
+    </q-header>
+    <!-- pc header -->
     <q-page-container>
       <router-view />
     </q-page-container>
@@ -98,6 +112,22 @@ export default defineComponent({
           title: "PRICING",
           caption: "",
           link: "#",
+        },
+      ],
+      pricing: [
+        {
+          id: 1,
+          title: "OUR LOCATIONS",
+          caption: "",
+          link: "#",
+          class: "pre_last",
+        },
+        {
+          id: 2,
+          title: "PRICING",
+          caption: "",
+          link: "#",
+          class: "last",
         },
       ],
     };
