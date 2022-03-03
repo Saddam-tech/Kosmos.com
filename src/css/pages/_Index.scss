@@ -44,6 +44,9 @@
       padding: 20px 30px;
       background-color: $primary;
       border: none;
+      position: absolute;
+      bottom: -220px;
+      left: 0;
       span {
         font-family: "Noto Sans KR", sans-serif;
       }
@@ -52,6 +55,13 @@
         display: none;
       }
     }
+    @media screen and (min-width: 748px) {
+      position: relative;
+      top: -200px;
+    }
+  }
+  @media screen and (min-width: 748px) {
+    margin: 0;
   }
 }
 
