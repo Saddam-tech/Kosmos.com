@@ -718,7 +718,7 @@
         <p class="bold">
           <img src="~assets/favicon.png" alt="logo" /> KOSMOS-FITNESS
         </p>
-        <p>
+        <p class="copyright">
           <span
             >Copyright © {{ new Date().getFullYear() }} Kosmos-Fitness. All
             rights reserved.</span
