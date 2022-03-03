@@ -23,11 +23,11 @@
   width: 100%;
   height: 100%;
   box-shadow: inset 0 -200px 100px black;
-  padding-top: 30px;
 
   .text_box {
     text-align: center;
     color: #ffffff;
+    margin-top: 50px;
 
     h1 {
       font-size: 90px;
@@ -38,19 +38,19 @@
       border-radius: 5px;
     }
 
-    // button {
-    //   position: relative;
-    //   padding: 20px 30px;
-    //   background-color: $primary;
-    //   border: none;
-    //   span {
-    //     font-family: "Noto Sans KR", sans-serif;
-    //   }
+    button {
+      position: relative;
+      padding: 20px 30px;
+      background-color: $primary;
+      border: none;
+      span {
+        font-family: "Noto Sans KR", sans-serif;
+      }
 
-    //   @media screen and (max-width: 748px) {
-    //     display: none;
-    //   }
-    // }
+      @media screen and (max-width: 748px) {
+        display: none;
+      }
+    }
   }
 }
 
