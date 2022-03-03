@@ -68,7 +68,7 @@
 .second_inner_box {
   display: flex;
   align-items: center;
-  justify-content: center;
+  // justify-content: space-around;
   flex-direction: column;
   background: url(~assets/man-workout.jpeg);
   background-position: 60% 50%;
@@ -103,6 +103,10 @@
     color: #ffffff;
     font-size: 14px;
     margin: 50px;
+  }
+
+  @media screen and (max-width: 748px) {
+    justify-content: center;
   }
 }
 .third_inner_box {
