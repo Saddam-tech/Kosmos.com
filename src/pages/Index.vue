@@ -684,6 +684,7 @@
           class="q-input"
           color="blue"
           label-color="grey"
+          dark
           v-model="input_text_email"
           :label="input_email_label"
           :dense="dense"
