@@ -5,6 +5,7 @@
         <h1>SMART HOME GYM</h1>
         <h1>MAKE YOUR</h1>
         <h1>BODY SHAPE</h1>
+        <!-- <button><span>GET STARTED</span></button> -->
       </div>
     </div>
     <div class="second_inner_box">
