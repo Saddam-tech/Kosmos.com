@@ -674,6 +674,9 @@
             ><i class="fas fa-envelope"></i
           ></a>
           <a href="tel://+8613276818667"> <i class="fas fa-phone"></i></a>
+          <a href="https://t.me/UsmanoB" target="blank">
+            <i class="fab fa-telegram"></i
+          ></a>
         </div>
       </div>
     </div>
@@ -706,6 +709,9 @@
             ><i class="fas fa-envelope"></i
           ></a>
           <a href="tel://+8613276818667"> <i class="fas fa-phone"></i></a>
+          <a href="https://t.me/UsmanoB" target="blank">
+            <i class="fab fa-telegram"></i
+          ></a>
         </div>
         <p><span>Call Us</span></p>
         <p class="p-white"><span>+86 132 7681 8667</span></p>
