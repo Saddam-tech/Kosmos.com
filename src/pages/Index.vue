@@ -12,7 +12,7 @@
       <h3>ABOUT US</h3>
       <div class="modal animate__animated animate__fadeIn">
         <p>
-          COMPANY FOUNDER: USMANOV FIRDAVS <br />
+          CEO: USMANOV FIRDAVS <br />
           <br />
           "People in most of the countries are facing problems such as
           overweight, diabetes and some other serious health problems. One of my
@@ -89,23 +89,36 @@
         </p>
       </div>
     </div>
-    <q-carousel
-      animated
-      v-model="slides"
-      navigation
-      infinite
-      :autoplay="autoplay"
-      arrows
-      transition-prev="slide-right"
-      transition-next="slide-left"
-      @mouseenter="autoplay = false"
-      @mouseleave="autoplay = true"
-    >
-      <q-carousel-slide :name="1" img-src="~assets/detail_1.png" />
-      <q-carousel-slide :name="2" img-src="~assets/detail_2.png" />
-      <q-carousel-slide :name="3" img-src="~assets/detail_3.png" />
-      <q-carousel-slide :name="4" img-src="~assets/detail_4.png" />
-    </q-carousel>
+    <div class="q-pa-md">
+      <div class="q-gutter-md">
+        <q-carousel
+          v-model="slide_7"
+          transition-prev="scale"
+          transition-next="scale"
+          swipeable
+          animated
+          control-color="black"
+          navigation
+          arrows
+          height="100%"
+          width="50px"
+          class="bg-white shadow-1 rounded-borders"
+        >
+          <q-carousel-slide name="style" class="column no-wrap flex-center">
+            <img src="~assets/detail_1.png" alt="training_1" />
+          </q-carousel-slide>
+          <q-carousel-slide name="tv" class="column no-wrap flex-center">
+            <img src="~assets/detail_2.png" alt="training_1" />
+          </q-carousel-slide>
+          <q-carousel-slide name="layers" class="column no-wrap flex-center">
+            <img src="~assets/detail_3.png" alt="training_1" />
+          </q-carousel-slide>
+          <q-carousel-slide name="map" class="column no-wrap flex-center">
+            <img src="~assets/detail_4.png" alt="training_1" />
+          </q-carousel-slide>
+        </q-carousel>
+      </div>
+    </div>
     <div class="fifth_inner_box">
       <div class="text-container animate__animated animate__fadeIn">
         <h2>
@@ -138,6 +151,10 @@
           and higher effect of exercises
         </p>
         <img src="~assets/strength-assement-v2.jpeg" alt="fitness" />
+      </div>
+      <div
+        class="text-container extra_padding animate__animated animate__fadeIn"
+      >
         <p>
           Recover more than 80% of the kinetic energy through super capacitors,
           even in boating mode not only does it consume no power, but it can
@@ -160,7 +177,6 @@
             padding
             arrows
             height="700px"
-            width="100%"
             class="bg-white shadow-1 rounded-borders"
           >
             <q-carousel-slide name="style" class="column no-wrap flex-center">
@@ -226,7 +242,6 @@
             padding
             arrows
             height="700px"
-            width="100%"
             class="bg-white shadow-1 rounded-borders"
           >
             <q-carousel-slide name="style" class="column no-wrap flex-center">
@@ -443,7 +458,6 @@
             padding
             arrows
             height="700px"
-            width="100%"
             class="bg-white shadow-1 rounded-borders"
           >
             <q-carousel-slide name="style" class="column no-wrap flex-center">
@@ -745,6 +759,7 @@ export default defineComponent({
       slide_4: ref("style"),
       slide_5: ref("style"),
       slide_6: ref("style"),
+      slide_7: ref("style"),
       input_text_email: ref(""),
       input_email_label: "Enter your email",
       dense: ref(false),
