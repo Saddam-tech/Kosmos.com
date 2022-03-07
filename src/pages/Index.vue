@@ -14,6 +14,17 @@
     <div class="second_inner_box">
       <h3>{{ $t("second_inner_box_h3") }}</h3>
       <div class="modal animate__animated animate__fadeIn">
+        <q-select
+          v-model="locale"
+          :options="localeOptions"
+          label="Quasar Language"
+          dense
+          borderless
+          emit-value
+          map-options
+          options-dense
+          style="min-width: 150px"
+        />
         <p>
           CEO: USMANOV FIRDAVS <br />
           <br />
@@ -648,11 +659,21 @@
 <script>
 import { defineComponent, ref } from "vue";
 import "animate.css";
+// import { useI18n } from "vue-i18n";
 
 export default defineComponent({
   name: "Index",
   setup() {
+    // const { locale } = useI18n({ useScope: "global" });
     return {
+      // locale,
+      // localeOptions: [
+      //   {
+      //     value: "en-US",
+      //     label: "English",
+      //   },
+      //   { value: "ru", label: "Russian" },
+      // ],
       slide: ref("style"),
       slide_2: ref("style"),
       slide_3: ref("style"),

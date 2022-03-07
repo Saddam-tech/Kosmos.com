@@ -1,7 +1,7 @@
 import enUS from "./en-US";
-import ruRu from "./ru-Ru";
+import ru from "./ru";
 
 export default {
   "en-US": enUS,
-  "ru-Ru": ruRu,
+  ru: ru,
 };
