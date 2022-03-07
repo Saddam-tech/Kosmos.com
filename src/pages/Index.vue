@@ -2,7 +2,8 @@
   <div class="main_menu_wrap">
     <div class="first_inner_box">
       <div class="text_box animate__animated animate__fadeIn">
-        <h1>SMART HOME GYM</h1>
+        <!-- <h1>SMART HOME GYM</h1> -->
+        <h1>{{ $t("first_inner_box_h1") }}</h1>
         <h1>MAKE YOUR</h1>
         <h1>BODY SHAPE</h1>
         <button><span>GET STARTED</span></button>
@@ -751,8 +752,6 @@ export default defineComponent({
   name: "Index",
   setup() {
     return {
-      slides: ref(1),
-      autoplay: ref(true),
       slide: ref("style"),
       slide_2: ref("style"),
       slide_3: ref("style"),
@@ -763,8 +762,6 @@ export default defineComponent({
       input_text_email: ref(""),
       input_email_label: "Enter your email",
       dense: ref(false),
-      lorem:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque voluptatem totam, architecto cupiditate officia rerum, error dignissimos praesentium libero ab nemo.",
     };
   },
 });
