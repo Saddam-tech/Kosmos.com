@@ -12,7 +12,7 @@
           @click="toggleLeftDrawer"
         ></q-btn>
         <div class="header-wrap">
-          <h4>KOSMOS.COM</h4>
+          <h4>{{ $t("heading") }}</h4>
           <q-toggle
             class="lang-toggle-button"
             :label="$i18n.locale"
@@ -44,18 +44,18 @@
           <div class="mobile-menu-list">
             <router-link to="/">
               <div class="header">
-                <h4>KOSMOS.COM</h4>
-                <p>Build yourself</p>
+                <h4>{{ $t("heading") }}</h4>
+                <p>{{ $t("drawer_subtitle") }}</p>
               </div>
             </router-link>
             <ul>
               <li v-for="list in navList" :key="list.id">
-                {{ this.$t(list.title) }}
+                {{ $t(list.title) }}
               </li>
             </ul>
             <ul>
               <li v-for="list in pricing" :key="list.id">
-                {{ this.$t(list.title) }}
+                {{ $t(list.title) }}
               </li>
             </ul>
           </div>
@@ -67,16 +67,16 @@
       <div class="pc_navbar_wrap">
         <ul>
           <li v-for="list in navList" :key="list.id">
-            {{ this.$t(list.title) }}
+            {{ $t(list.title) }}
           </li>
         </ul>
         <div class="title_logo">
           <img src="~assets/favicon.png" alt="logo" />
-          <h4>KOSMOS.COM</h4>
+          <h4>{{ $t("heading") }}</h4>
         </div>
         <ul>
           <li :class="list.class" v-for="list in pricing" :key="list.id">
-            {{ this.$t(list.title) }}
+            {{ $t(list.title) }}
           </li>
         </ul>
         <q-toggle

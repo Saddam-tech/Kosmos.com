@@ -1,5 +1,6 @@
 export default {
-  heading: "Kosmos | Smart Fitness",
+  heading: "КОСМОС™",
+  drawer_subtitle: "Построй себя",
   navbar_home: "ГЛАВНЫЙ",
   navbar_equipment: "ОБОРУДОВАНИЕ",
   navbar_intelligence: "ИНТЕЛЛЕКТ",

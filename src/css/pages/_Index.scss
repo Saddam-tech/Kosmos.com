@@ -372,6 +372,14 @@
   }
 
   @media screen and (min-width: 748px) {
+    p {
+      max-width: 100%;
+    }
+
+    h2 {
+      max-width: 100%;
+      // padding: 0;
+    }
     .text-container {
       gap: 100px;
       padding-left: 150px;

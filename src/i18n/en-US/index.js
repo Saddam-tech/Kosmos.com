@@ -1,6 +1,6 @@
 export default {
   // heading: "Kosmos",
-  heading: "Kosmos | Smart Fitness",
+  heading: "KOSMOS™",
   navbar_home: "MAIN",
   navbar_equipment: "EQUIPMENT",
   navbar_intelligence: "INTELLIGENCE",
