@@ -20,8 +20,14 @@ export default {
   third_inner_box_h3_1: "BUILD YOUR ",
   third_inner_box_h3_2: "BEST BODY",
   third_inner_box_p_2: "Cardio Exercise",
+  third_inner_box_p_2_1: "Time Benefits",
+  third_inner_box_p_2_2: "Heart Rate Monitor",
   third_inner_box_p_3:
-    " Attempts a maximum weight single lift of a barbell loaded with weight plates",
+    "High intensity training only really went mainstream about ten years ago. As such, there have been numerous studies on the positive impact of high intensity training. If you want to know how to improve heart health with exercise, research shows that high intensity is one of the best things out there to boost cardiovascular health.",
+  third_inner_box_p_3_2:
+    "Kosmos's High Intensity brings together the amazing benefits of strength training with cardio. The combination of weights with fast-paced bursts of speed maxes out your heart rate while helping you build muscle and endurance for a fitter and faster you.",
+  third_inner_box_p_3_3:
+    "With Kosmos, you can monitor your heart rate in real-time, helping you perform at the optimal intensity in every workout",
   fourth_inner_box_h4: "Product",
   fourth_inner_box_h4_1: "Information",
   fourth_inner_box_p:

@@ -46,18 +46,18 @@
         <div class="option-box-one">
           <div class="inner-box">
             <span class="material-icons"> timer </span>
-            <p class="head">{{ $t("third_inner_box_p_2") }}</p>
+            <p class="head">{{ $t("third_inner_box_p_2_1") }}</p>
             <p class="text">
-              {{ $t("third_inner_box_p_3") }}
+              {{ $t("third_inner_box_p_3_2") }}
             </p>
           </div>
         </div>
         <div class="option-box-one">
           <div class="inner-box">
             <span class="material-icons"> sports_kabaddi </span>
-            <p class="head">{{ $t("third_inner_box_p_2") }}</p>
+            <p class="head">{{ $t("third_inner_box_p_2_2") }}</p>
             <p class="text">
-              {{ $t("third_inner_box_p_3") }}
+              {{ $t("third_inner_box_p_3_3") }}
             </p>
           </div>
         </div>
@@ -66,6 +66,7 @@
     <div class="fourth_inner_box">
       <div class="header">
         <h4 class="stroke-h4">{{ $t("fourth_inner_box_h4") }}</h4>
+        <br />
         <h4 class="no-stroke-h4">{{ $t("fourth_inner_box_h4_1") }}</h4>
       </div>
       <div class="modal animate__animated animate__fadeIn">
