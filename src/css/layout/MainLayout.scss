@@ -6,6 +6,13 @@
   z-index: 999;
   padding: 10px;
 
+  .header-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 130px;
+  }
+
   .mobile-menu {
     .header {
       display: flex;
@@ -89,6 +96,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    .lang-toggle-button {
+      padding: 0;
+      padding-top: 50px;
+      width: 300px;
+    }
 
     .title_logo {
       display: flex;

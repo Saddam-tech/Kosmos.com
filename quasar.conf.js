@@ -65,9 +65,6 @@ module.exports = configure(function (ctx) {
       // https://quasar.dev/quasar-cli/handling-webpack
       // "chain" is a webpack-chain object https://github.com/neutrinojs/webpack-chain
       chainWebpack(chain) {
-        chain
-          .plugin("eslint-webpack-plugin")
-          .use(ESLintPlugin, [{ extensions: ["js", "vue"] }]);
         chain.module
           .rule("i18n-resource")
           .test(/\.(json5?|ya?ml)$/)
@@ -82,6 +79,9 @@ module.exports = configure(function (ctx) {
           .type("javascript/auto")
           .use("i18n")
           .loader("@intlify/vue-i18n-loader");
+        chain
+          .plugin("eslint-webpack-plugin")
+          .use(ESLintPlugin, [{ extensions: ["js", "vue"] }]);
       },
     },
 

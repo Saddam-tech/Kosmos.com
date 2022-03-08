@@ -11,7 +11,17 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         ></q-btn>
-        <h4>KOSMOS.COM</h4>
+        <div class="header-wrap">
+          <h4>KOSMOS.COM</h4>
+          <q-toggle
+            class="lang-toggle-button"
+            :label="$i18n.locale"
+            color="white"
+            false-value="ru"
+            true-value="en-US"
+            v-model="$i18n.locale"
+          />
+        </div>
         <q-drawer
           :width="$q.screen.width"
           v-model="leftDrawerOpen"
@@ -60,6 +70,14 @@
             {{ list.title }}
           </li>
         </ul>
+        <q-toggle
+          class="lang-toggle-button"
+          :label="$i18n.locale"
+          color="white"
+          false-value="ru"
+          true-value="en-US"
+          v-model="$i18n.locale"
+        />
       </div>
     </q-header>
     <!-- pc header -->
