@@ -1,7 +1,7 @@
 export default {
-  first_inner_box_h1: "УМНЫЙ ДОМАШНИЙ СПОРТЗАЛ",
-  first_inner_box_h1_2: "СФОРМУЛИРУЙТЕ",
-  first_inner_box_h1_3: "ФОРМУ ВАШЕГО ТЕЛА",
+  first_inner_box_h1: "СМАРТ",
+  first_inner_box_h1_2: "ДОМ",
+  first_inner_box_h1_3: "ФИТНЕС",
   first_inner_box_h1_4: "НАЧАТЬ",
   second_inner_box_h3: "О НАС",
   second_inner_box_p:

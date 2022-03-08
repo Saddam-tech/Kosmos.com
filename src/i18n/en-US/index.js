@@ -1,7 +1,9 @@
 export default {
-  first_inner_box_h1: "SMART HOME GYM",
-  first_inner_box_h1_2: "MAKE YOUR",
-  first_inner_box_h1_3: "BODY SHAPE",
+  first_inner_box_h1: "SMART",
+  // first_inner_box_h1_2: "MAKE YOUR",
+  // first_inner_box_h1_3: "BODY SHAPE",
+  first_inner_box_h1_2: "HOME",
+  first_inner_box_h1_3: "GYM",
   first_inner_box_h1_4: "GET STARTED",
   second_inner_box_h3: "ABOUT US",
   second_inner_box_p:
