@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 160px;
+    padding-left: 140px;
   }
 
   .mobile-menu {
@@ -36,6 +36,7 @@
           padding: 16px;
           color: #000000;
           font-size: 18px;
+          letter-spacing: 0.3px;
         }
         li:after {
           content: "";
@@ -145,6 +146,7 @@
         margin-top: 35px;
         color: #ffffff;
         font-size: 13px;
+        letter-spacing: 0.3px;
       }
       li:last-child::before {
         content: "";

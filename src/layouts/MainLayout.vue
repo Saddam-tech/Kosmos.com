@@ -45,7 +45,7 @@
             <router-link to="/">
               <div class="header">
                 <h4>{{ $t("heading") }}</h4>
-                <p>{{ $t("drawer_subtitle") }}</p>
+                <p>{{ $t("subtitle") }}</p>
               </div>
             </router-link>
             <ul>

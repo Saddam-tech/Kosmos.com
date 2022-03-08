@@ -1,6 +1,7 @@
 export default {
   // heading: "Kosmos",
   heading: "KOSMOS™",
+  subtitle: "Build yourself",
   navbar_home: "MAIN",
   navbar_equipment: "EQUIPMENT",
   navbar_intelligence: "INTELLIGENCE",

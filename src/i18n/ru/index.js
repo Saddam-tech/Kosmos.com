@@ -1,6 +1,6 @@
 export default {
   heading: "КОСМОС™",
-  drawer_subtitle: "Построй себя",
+  subtitle: "Построй себя",
   navbar_home: "ГЛАВНЫЙ",
   navbar_equipment: "ОБОРУДОВАНИЕ",
   navbar_intelligence: "ИНТЕЛЛЕКТ",
