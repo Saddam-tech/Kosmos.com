@@ -49,7 +49,14 @@
               </div>
             </router-link>
             <ul>
-              <li v-for="list in navList" :key="list.id">{{ list.title }}</li>
+              <li v-for="list in navList" :key="list.id">
+                {{ this.$t(list.title) }}
+              </li>
+            </ul>
+            <ul>
+              <li v-for="list in pricing" :key="list.id">
+                {{ this.$t(list.title) }}
+              </li>
             </ul>
           </div>
         </q-drawer>
@@ -59,7 +66,9 @@
     <q-header class="pc_main_header">
       <div class="pc_navbar_wrap">
         <ul>
-          <li v-for="list in navList" :key="list.id">{{ list.title }}</li>
+          <li v-for="list in navList" :key="list.id">
+            {{ this.$t(list.title) }}
+          </li>
         </ul>
         <div class="title_logo">
           <img src="~assets/favicon.png" alt="logo" />
@@ -67,7 +76,7 @@
         </div>
         <ul>
           <li :class="list.class" v-for="list in pricing" :key="list.id">
-            {{ list.title }}
+            {{ this.$t(list.title) }}
           </li>
         </ul>
         <q-toggle
@@ -97,52 +106,46 @@ export default defineComponent({
       navList: [
         {
           id: 1,
-          title: "HOME",
+          title: "navbar_home",
           caption: "",
           link: "/home",
         },
         {
           id: 2,
-          title: "EQUIPMENT",
+          title: "navbar_equipment",
           caption: "",
           link: "/equipment",
         },
         {
           id: 3,
-          title: "INTELLIGENCE",
+          title: "navbar_intelligence",
           caption: "",
           link: "/intelligence",
         },
         {
           id: 4,
-          title: "PROGRESS TRACKING",
+          title: "navbar_progress_tracking",
           caption: "",
           link: "/progress-tracking",
         },
         {
           id: 5,
-          title: "WORKOUTS",
+          title: "navbar_workouts",
           caption: "",
           link: "/workouts",
-        },
-        {
-          id: 6,
-          title: "PRICING",
-          caption: "",
-          link: "#",
         },
       ],
       pricing: [
         {
           id: 1,
-          title: "OUR LOCATIONS",
+          title: "navbar_locations",
           caption: "",
           link: "#",
           class: "pre_last",
         },
         {
           id: 2,
-          title: "PRICING",
+          title: "navbar_pricing",
           caption: "",
           link: "#",
           class: "last",
@@ -150,6 +153,9 @@ export default defineComponent({
       ],
     };
   },
+  // mounted() {
+  //   console.log(this.$i18n.locale);
+  // },
 
   setup() {
     const leftDrawerOpen = ref(false);

@@ -46,7 +46,7 @@
         <div class="option-box-one">
           <div class="inner-box">
             <span class="material-icons"> timer </span>
-            <p class="head">Cardio exercise</p>
+            <p class="head">{{ $t("third_inner_box_p_2") }}</p>
             <p class="text">
               {{ $t("third_inner_box_p_3") }}
             </p>
@@ -55,7 +55,7 @@
         <div class="option-box-one">
           <div class="inner-box">
             <span class="material-icons"> sports_kabaddi </span>
-            <p class="head">Cardio exercise</p>
+            <p class="head">{{ $t("third_inner_box_p_2") }}</p>
             <p class="text">
               {{ $t("third_inner_box_p_3") }}
             </p>
@@ -304,7 +304,7 @@
               <div class="eight_inner_box">
                 <h5>{{ $t("eight_inner_box_h5_12") }}</h5>
                 <p>
-                  {{ $t(" eight_inner_box_p_4") }}
+                  {{ $t("eight_inner_box_p_4") }}
                 </p>
                 <img src="~assets/10.jpeg" alt="training_1" />
               </div>
@@ -314,9 +314,9 @@
               class="column no-wrap flex-center"
             >
               <div class="eight_inner_box">
-                <h5>{{ $t(" eight_inner_box_h5_13") }}</h5>
+                <h5>{{ $t("eight_inner_box_h5_13") }}</h5>
                 <p>
-                  {{ $t(" eight_inner_box_p_5") }}
+                  {{ $t("eight_inner_box_p_5") }}
                 </p>
                 <img src="~assets/shot.png" alt="training_1" />
               </div>
@@ -528,7 +528,7 @@
     </div>
     <div class="pre-footer">
       <div class="inner-content">
-        <h5 class="stroke-h5">{{ $t("pre_footer_h5") }}T</h5>
+        <h5 class="stroke-h5">{{ $t("pre_footer_h5") }}</h5>
         <img src="~assets/man-workout.jpeg" alt="training_1" />
         <q-carousel
           v-model="slide_6"
@@ -603,7 +603,7 @@
           label-color="grey"
           dark
           v-model="input_text_email"
-          :label="input_email_label"
+          :label="$t('email_input')"
           :dense="dense"
         />
         <div class="social-icons">
@@ -661,7 +661,6 @@ export default defineComponent({
       slide_6: ref("style"),
       slide_7: ref("style"),
       input_text_email: ref(""),
-      input_email_label: "Enter your email",
       dense: ref(false),
     };
   },
