@@ -12,7 +12,7 @@
           @click="toggleLeftDrawer"
         ></q-btn>
         <div class="header-wrap">
-          <h4>{{ $t("heading") }}</h4>
+          <p class="heading_1">{{ $t("heading") }}</p>
           <q-toggle
             class="lang-toggle-button"
             :label="$i18n.locale"
@@ -44,7 +44,7 @@
           <div class="mobile-menu-list">
             <router-link to="/">
               <div class="header">
-                <h4>{{ $t("heading") }}</h4>
+                <p class="heading_1">{{ $t("heading") }}</p>
                 <p>{{ $t("subtitle") }}</p>
               </div>
             </router-link>
@@ -72,7 +72,7 @@
         </ul>
         <div class="title_logo">
           <img src="~assets/favicon.png" alt="logo" />
-          <h4>{{ $t("heading") }}</h4>
+          <p class="heading_1">{{ $t("heading") }}</p>
         </div>
         <ul>
           <li :class="list.class" v-for="list in pricing" :key="list.id">

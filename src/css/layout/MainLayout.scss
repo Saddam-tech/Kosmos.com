@@ -21,7 +21,7 @@
       justify-content: center;
       padding: 34px;
 
-      h4 {
+      .heading_1 {
         color: #000000;
       }
     }
@@ -70,7 +70,7 @@
     }
   }
 
-  h4 {
+  .heading_1 {
     text-align: center;
     color: #ffffff;
     font-size: 1.5em;
@@ -78,7 +78,6 @@
     margin: 0;
     padding: 0;
     font-style: normal;
-    font-weight: bold;
   }
 
   @media screen and (min-width: 728px) {
@@ -117,16 +116,14 @@
         border-radius: 90px;
         border: 3px solid #087bff;
       }
-      h4 {
+      .heading_1 {
         text-align: center;
         color: #ffffff;
         font-size: 1.5em;
-        font-weight: bold;
         margin: 0;
-        padding-left: 10px;
         font-style: normal;
-        font-weight: bold;
-        width: 130px;
+        width: 120px;
+        line-height: 100px;
       }
     }
 
