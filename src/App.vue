@@ -1,6 +1,6 @@
 <template>
   <!-- <router-view /> -->
-  <div style="margin-top: 400px">
+  <div style="margin-top: 350px">
     <h5 style="text-align: center">
       The site will be available after the charge has been paid!
     </h5>
