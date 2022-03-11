@@ -1,6 +1,6 @@
 export default {
-  // heading: "Kosmos",
   heading: "KOSMOS™",
+  subtitle: "Build yourself",
   navbar_home: "MAIN",
   navbar_equipment: "EQUIPMENT",
   navbar_intelligence: "INTELLIGENCE",
@@ -19,16 +19,22 @@ export default {
   third_inner_box_h3_1: "BUILD YOUR ",
   third_inner_box_h3_2: "BEST BODY",
   third_inner_box_p_2: "Cardio Exercise",
+  third_inner_box_p_2_1: "Time Benefits",
+  third_inner_box_p_2_2: "Heart Rate Monitor",
   third_inner_box_p_3:
-    " Attempts a maximum weight single lift of a barbell loaded with weight plates",
+    "High intensity training only really went mainstream about ten years ago. As such, there have been numerous studies on the positive impact of high intensity training. If you want to know how to improve heart health with exercise, research shows that high intensity is one of the best things out there to boost cardiovascular health.",
+  third_inner_box_p_3_2:
+    "Kosmos's High Intensity brings together the amazing benefits of strength training with cardio. The combination of weights with fast-paced bursts of speed maxes out your heart rate while helping you build muscle and endurance for a fitter and faster you.",
+  third_inner_box_p_3_3:
+    "With Kosmos, you can monitor your heart rate in real-time, helping you perform at the optimal intensity in every workout",
   fourth_inner_box_h4: "Product",
   fourth_inner_box_h4_1: "Information",
   fourth_inner_box_p:
-    "The Intelligent Comprehensive Trainer is an exercise program thatcombines the functions of all core muscle groups with a variety of aerobic exercise functions of high-tech comprehensive training device, functioning stronger, and more interesting. The utility model has the characteristics of small area “One square meter Bodybuilding”, powerful function, rich content, personalized fitness program customization, aerobic and a variety of strength equipment fusion, regular live course invitations, and other home fitness exercise like scientific sports. The online course system and the product complement each other, and they are suitable for private education, family, enterprices, and other occasions, like gym. Adhere to the “fitness technology, intelligent, home”, a design concept for users to create beautiful fashion, smart fitness equipment at the cutting edge of technology.",
+    "The Intelligent Comprehensive Trainer is an exercise program that combines the functions of all core muscle groups with a variety of aerobic exercise functions of high-tech comprehensive training device, functioning stronger, and more interesting. The utility model has the characteristics of small area “One square meter Bodybuilding”, powerful function, rich content, personalized fitness program customization, aerobic and a variety of strength equipment fusion, regular live course invitations, and other home fitness exercise like scientific sports. The online course system and the product complement each other, and they are suitable for private education, family, enterprices, and other occasions, like gym. Adhere to the “fitness technology, intelligent, home”, a design concept for users to create beautiful fashion, smart fitness equipment at the cutting edge of technology.",
   fifth_inner_box_h2: "HUMANIZED DESIGN",
   fifth_inner_box_h2_1: "STRIVE FOR QUALITY",
   fifth_inner_box_p:
-    "The main frame structure of the intelligent comprehensive trainingdevice is made of high-strength steel. Durable, high-temperature spraytreatment on hte surface, beautiful appearance, scrantch-resistant,180 degree rotatable. The rotating column adopts the design concept ofthe combination of spring pin and rotating rod pin to reduce shaking.Move to increase the stability during exercise, the upper and lowerboom adopts circlip type adjustment design. The adjustment issmoother. The tension rope is made of imported string horse braidedrope. It has the characteristics of wear resistence, UV resistancecorrosion resistence, oxidation resistance and strong tensile force, so that safer during use.",
+    "The main frame structure of the intelligent comprehensive training device is made of high-strength steel. Durable, high-temperature spraytreatment on hte surface, beautiful appearance, scrantch-resistant,180 degree rotatable. The rotating column adopts the design concept ofthe combination of spring pin and rotating rod pin to reduce shaking.Move to increase the stability during exercise, the upper and lowerboom adopts circlip type adjustment design. The adjustment issmoother. The tension rope is made of imported string horse braidedrope. It has the characteristics of wear resistence, UV resistancecorrosion resistence, oxidation resistance and strong tensile force, so that safer during use.",
   sixth_inner_box_h4: "Efficient usage of power Kinetic energy recovery",
   sixth_inner_box_p:
     "The disruptive motor technology avoids the backlash caused by the reducer and ensures a smooth feel. FOC control, special motor design, can directly output more than 50nm torque, dynamic powerful. Compared with traditional counterweight equipment, it is muted, safer, smarter and higher effect of exercises",

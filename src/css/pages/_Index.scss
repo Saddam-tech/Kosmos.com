@@ -102,7 +102,7 @@
     // height: 300px;
   }
   p {
-    overflow-y: scroll;
+    // overflow-y: scroll;
     color: #ffffff;
     font-size: 14px;
     margin: 35px;
@@ -185,12 +185,14 @@
     border-radius: 20px;
     padding: 20px;
     margin-top: 40px;
+    width: 80%;
 
     .inner-box {
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+
       .material-icons {
         font-size: 28px;
         color: #000000;
@@ -208,6 +210,8 @@
         font-size: 20px;
         color: #ffffff;
         letter-spacing: 0.3px;
+        overflow-y: scroll;
+        max-height: 400px;
       }
     }
   }
@@ -223,6 +227,14 @@
 
     .option-box-one {
       margin-bottom: 50px;
+      width: 50%;
+
+      .inner-box {
+        .text {
+          overflow: hidden;
+          max-height: none;
+        }
+      }
     }
   }
 
@@ -262,8 +274,7 @@
     background: rgba(77, 77, 77, 0.78);
     margin: 35px;
     padding: 0;
-    // width: 300px;
-    // height: 300px;
+    max-height: 450px;
   }
   p {
     overflow-y: scroll;
@@ -277,24 +288,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
+
     .stroke-h4 {
       -webkit-text-stroke: 0.5px #ffffff;
       font-size: bold;
       color: #000000;
-      margin: 7px;
     }
 
     .no-stroke-h4 {
       font-size: bold;
       color: #ffffff;
-      margin: 7px;
     }
   }
 
   @media screen and (min-width: 748px) {
     justify-content: center;
-
+    p {
+      overflow: hidden;
+    }
     .modal {
       height: 400px;
       width: 60%;
@@ -529,6 +542,9 @@
     h5 {
       width: 950px;
       text-align: center;
+    }
+    p {
+      overflow: hidden;
     }
   }
 }
