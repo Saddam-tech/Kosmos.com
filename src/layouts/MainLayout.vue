@@ -153,10 +153,6 @@ export default defineComponent({
       ],
     };
   },
-  // mounted() {
-  //   console.log(this.$i18n.locale);
-  // },
-
   setup() {
     const leftDrawerOpen = ref(false);
 
