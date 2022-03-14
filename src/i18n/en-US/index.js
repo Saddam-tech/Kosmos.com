@@ -132,4 +132,5 @@ export default {
   footer_p_3: "Copyright © ",
   footer_p_4: "Kosmos-Fitness. All rights reserved.",
   email_input: "Enter your email",
+  my_info: "For inqueries on web building and design please email me at",
 };

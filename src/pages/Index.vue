@@ -635,6 +635,12 @@
         <p class="bold">
           <img src="~assets/favicon.png" alt="logo" /> KOSMOS-FITNESS
         </p>
+        <p>
+          {{ $t("my_info") }}
+          <a href="mailto:salokhiddinov0727@gmail.com"
+            >salokhiddinov0727@gmail.com</a
+          >
+        </p>
         <p class="copyright">
           <span
             >{{ $t("footer_p_3") }}{{ new Date().getFullYear() }}
