@@ -633,7 +633,7 @@
         </p>
         <p class="p-white"><span>+86 132 7681 8667</span></p>
         <p class="bold">
-          <img src="~assets/favicon.png" alt="logo" /> KOSMOS-FITNESS
+          <img src="~assets/favicon.png" alt="logo" /> {{ $t("footer_p_5") }}
         </p>
         <p>
           {{ $t("my_info") }}

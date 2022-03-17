@@ -1,5 +1,5 @@
 export default {
-  heading: "KOSMOS™",
+  heading: "COSMOS™",
   subtitle: "Build yourself",
   navbar_home: "MAIN",
   navbar_equipment: "EQUIPMENT",
@@ -14,7 +14,7 @@ export default {
   first_inner_box_h1_4: "GET STARTED",
   second_inner_box_h3: "ABOUT US",
   second_inner_box_p:
-    "People in most of the countries are facing problems such as  overweight, diabetes and some other serious health problems. One of my  biggest dreams is - help people always be happy, healthy and feel young Our company is headquartered in China and was founded in 2020.  After several months of hard work, our company has gradually started producing our first product Kosmos I. Our Smart Home Gym are manufactured and sold in China first, then in the countries of the former Soviet Union, and eventually in the wider markets of East Asia, the Middle East and Africa, Europe",
+    "People in most of the countries are facing problems such as  overweight, diabetes and some other serious health problems. One of my  biggest dreams is - help people always be happy, healthy and feel young Our company is headquartered in China and was founded in 2020.  After several months of hard work, our company has gradually started producing our first product Cosmos I. Our Smart Home Gym are manufactured and sold in China first, then in the countries of the former Soviet Union, and eventually in the wider markets of East Asia, the Middle East and Africa, Europe",
   third_inner_box_h3: "SERVICES",
   third_inner_box_h3_1: "BUILD YOUR ",
   third_inner_box_h3_2: "BEST BODY",
@@ -24,9 +24,9 @@ export default {
   third_inner_box_p_3:
     "High intensity training only really went mainstream about ten years ago. As such, there have been numerous studies on the positive impact of high intensity training. If you want to know how to improve heart health with exercise, research shows that high intensity is one of the best things out there to boost cardiovascular health.",
   third_inner_box_p_3_2:
-    "Kosmos's High Intensity brings together the amazing benefits of strength training with cardio. The combination of weights with fast-paced bursts of speed maxes out your heart rate while helping you build muscle and endurance for a fitter and faster you.",
+    "Cosmos's High Intensity brings together the amazing benefits of strength training with cardio. The combination of weights with fast-paced bursts of speed maxes out your heart rate while helping you build muscle and endurance for a fitter and faster you.",
   third_inner_box_p_3_3:
-    "With Kosmos, you can monitor your heart rate in real-time, helping you perform at the optimal intensity in every workout",
+    "With Cosmos, you can monitor your heart rate in real-time, helping you perform at the optimal intensity in every workout",
   fourth_inner_box_h4: "Product",
   fourth_inner_box_h4_1: "Information",
   fourth_inner_box_p:
@@ -125,12 +125,13 @@ export default {
   pre_footer_h5: "EXPLORE OUR CONTENT",
   footer_h5: "How the best get stronger",
   footer_p:
-    "The Kosmos community is changing strength training forever. Join in, we’re just getting started.",
+    "The Cosmos community is changing strength training forever. Join in, we’re just getting started.",
   footer_h5_1: "KEEP IN TOUCH WITH US IN SOCIAL MEDIA",
-  footer_p_1: "Keep up to date with Kosmos-Fitness",
+  footer_p_1: "Keep up to date with Cosmos-Fitness",
   footer_p_2: "Call Us",
   footer_p_3: "Copyright © ",
-  footer_p_4: "Kosmos-Fitness. All rights reserved.",
+  footer_p_4: "Cosmos-Fitness. All rights reserved.",
+  footer_p_5: "COSMOS-FITNESS",
   email_input: "Enter your email",
   my_info: "For inqueries on web building and design please email me at",
 };
